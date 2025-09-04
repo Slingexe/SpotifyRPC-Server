@@ -26,7 +26,7 @@ class NowPlayingServer:
     def __init__(
         self,
         host: str = "0.0.0.0",
-        port: int = 2052,
+        port: int = 62011,
         *,
         ssl_certfile: Optional[str] = None,       # e.g. /etc/ssl/myapp/fullchain.pem
         ssl_keyfile: Optional[str] = None,        # e.g. /etc/ssl/myapp/privkey.pem
